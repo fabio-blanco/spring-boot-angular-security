@@ -1,0 +1,7 @@
+<div [hidden]="!autenticated()">
+  <p>Id: {{data.id}}</p>
+  <p>{{data.content}}</p>
+</div>
+<div [hidden]="autenticated()">
+  <p>Login to see the content</p>
+</div>

@@ -1,0 +1,27 @@
+<nav class="menu-nav">
+
+  <ul class="menu">
+    <li><a routerLink="home" routerLinkActive="active">Home</a></li>
+    <li>
+      <a href="#">Submenus</a>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </li>
+    <li *ngIf="!autenticated()"><a routerLink="/login">Login</a></li>
+    <li *ngIf="autenticated()"><a (click)="logout()">Logout</a></li>
+  </ul>
+
+</nav>
+
+<div class="container">
+  <h1>
+    {{title}}
+  </h1>
+
+  <router-outlet></router-outlet>
+
+</div>
+
