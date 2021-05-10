@@ -266,4 +266,4 @@ const routes: Routes = [
 ## Copyright and license ##
 
 Code and documentation copyright 2021 Fabio M. Blanco. Code released under the
-[MIT License](https://github.com/fabio-blanco/test-boot-angular-security/blob/master/LICENSE)
+[MIT License](https://github.com/fabio-blanco/spring-boot-angular-security/blob/master/LICENSE)
