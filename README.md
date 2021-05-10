@@ -252,7 +252,7 @@ export class NotFoundComponent implements OnInit {
 }
 ```
 
-... and route all unknown rotes to it:
+... and route all unknown routes to it:
 
 ```typescript
 // app-routing.module.ts
